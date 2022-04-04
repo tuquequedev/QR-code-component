@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/* Variables de diseño */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Tarjeta QR y cuerpo */
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+/* Ajuste de margen */
+
+.container {
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+/* color de fondo de la tarjeta con ajustes en el texto y bordes circulares */
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    padding: 16px;
+    border-radius: 16px;
+    text-align: center;
+    margin: 0 1em;
+}
+
+/* ajuste del borde de la tarjeta */
+
+.card img { 
+    width: 100%; 
+    border-radius: 10px;
+}
+
+/* tamaños del texto y color de fondo con ajustes de padding */
+
+.text {
+    padding: 18px 12px; 
+}
+
+.text h2 {
+    color: hsl(218, 44%, 22%);
+    padding-bottom: 15px;
+}
+
+.text p {
+    color: hsl(220, 15%, 55%);
+
+}
